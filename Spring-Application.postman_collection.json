@@ -1,0 +1,476 @@
+{
+	"info": {
+		"_postman_id": "36e74b40-e6e3-4932-9b10-26a03856547d",
+		"name": "Spring-Application",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33659172"
+	},
+	"item": [
+		{
+			"name": "Create Doctor1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dr. Ankita\",\n    \"city\": \"Noida\",\n    \"email\": \"test1@email.com\",\n    \"phone\": \"1234567891\",\n    \"speciality\": \"ORTHO\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/doctors",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"doctors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Doctor2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dr. Manoj\",\n    \"city\": \"Faridabad\",\n    \"email\": \"test2@email.com\",\n    \"phone\": \"1234563891\",\n    \"speciality\": \"DERMA\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/doctors",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"doctors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Doctor3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dr. Sachidanand\",\n    \"city\": \"Delhi\",\n    \"email\": \"test3@email.com\",\n    \"phone\": \"1244563891\",\n    \"speciality\": \"ENT\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/doctors",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"doctors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Doctor4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dr. Vandana\",\n    \"city\": \"Noida\",\n    \"email\": \"test4@email.com\",\n    \"phone\": \"1244663891\",\n    \"speciality\": \"GYNE\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/doctors",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"doctors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Doctor5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dr. Pramod\",\n    \"city\": \"Faridabad\",\n    \"email\": \"test5@email.com\",\n    \"phone\": \"1244641891\",\n    \"speciality\": \"DERMA\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/doctors",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"doctors"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Patient1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Anukul\",\n    \"city\": \"Noida\",\n    \"email\": \"test100@email.com\",\n    \"symptom\": \"arthritis\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/patients",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Patient2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Sayan\",\n    \"city\": \"Noida\",\n    \"email\": \"test101@email.com\",\n    \"symptom\": \"dysmenorrhea\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/patients",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Patient3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Himanshu\",\n    \"city\": \"Delhi\",\n    \"email\": \"test102@email.com\",\n    \"symptom\": \"skin infection\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/patients",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Patient4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Deepak\",\n    \"city\": \"Noida\",\n    \"email\": \"test103@email.com\",\n    \"symptom\": \"ear pain\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/patients",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Patient5",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Sharukh\",\n    \"city\": \"Faridabad\",\n    \"email\": \"test104@email.com\",\n    \"symptom\": \"tissue injuries\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/patients",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Patient6",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Dhurv\",\n    \"city\": \"Faridabad\",\n    \"email\": \"test107@email.com\",\n    \"symptom\": \"headache\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/patients",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Patient7",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Rajesh\",\n    \"city\": \"Delhi\",\n    \"email\": \"test1012@email.com\",\n    \"symptom\": \"dysmenorrhea\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/api/patients",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Suggestion1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/patients/suggest-doctors?patientId=1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients",
+						"suggest-doctors"
+					],
+					"query": [
+						{
+							"key": "patientId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Suggestion2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/patients/suggest-doctors?patientId=6",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients",
+						"suggest-doctors"
+					],
+					"query": [
+						{
+							"key": "patientId",
+							"value": "6"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Suggestion3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/patients/suggest-doctors?patientId=3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients",
+						"suggest-doctors"
+					],
+					"query": [
+						{
+							"key": "patientId",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Doctor 3",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/doctors/email?email=test3@email.com",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"doctors",
+						"email"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "test3@email.com"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Suggestion4",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/patients/suggest-doctors?patientId=3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"patients",
+						"suggest-doctors"
+					],
+					"query": [
+						{
+							"key": "patientId",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
